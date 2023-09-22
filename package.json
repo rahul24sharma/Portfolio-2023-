@@ -3,6 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "commonjs", 
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react" 
+    ]
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
