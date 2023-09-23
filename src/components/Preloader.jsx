@@ -9,7 +9,7 @@ const Preloader = () => {
       height="80"
       width="80"
       radius="9"
-      color="purple"
+      color="white"
       ariaLabel="loading"
       wrapperStyle
       wrapperClass

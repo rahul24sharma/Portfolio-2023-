@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -33,21 +34,21 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_9xd8218",
+        "template_6vbf6xk",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Rahul Sharma",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "rsharmaa84@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "GcZB_fQCmZR8kHWNn"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          toast("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -59,7 +60,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          toast("Ahh, something went wrong. Please try again.");
         }
       );
   };
@@ -129,6 +130,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <ToastContainer position="bottom-right" />
     </div>
   );
 };
