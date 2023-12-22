@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    tecpinion,
+    webcraft,
     tesla,
     shopify,
     carrent,
@@ -50,7 +50,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Python Developer",
+      title: "NodeJS Developer",
       icon: backend,
     },
     {
@@ -116,36 +116,48 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Tecpinion",
-      icon: tecpinion,
+      title: "Software Engineer",
+      company_name: "Webcraft IT",
+      icon: webcraft,
       iconBg: "#383E56",
-      date: "December 2022 - September 2023",
+      date: "June 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Developing gaming applicationsusing pixijs, gsap and other related technologies to create high-quality products.",
+        "Engineered software code using ReactJS and JavaScript to meet design specifications, and user requirements as well as deliver high-quality applications within specified deadlines.",
+        "Developed the UI/UX of the aviator crash casino game and worked on the logical part using ReactJS, Pixijs, Web-Socket, Material UI, and NodeJS.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-
+    {
+      title: "Software Engineer Intern",
+      company_name: "Webcraft IT",
+      icon: webcraft,
+      iconBg: "#383E56",
+      date: "December 2022 - May 2023",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing gaming applicationsusing pixijs, gsap and other related technologies to create high-quality products.",
+        "Worked on Superuser Management system using HTML5, CSS3, JavaScript, and Firebase, which helped the admin create and manage users.",
+        "Created independent and reusable web components using ReactJS and JavaScript which can be integrated with any application.",
+      ],
+    },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rahul proved me wrong.",
-      name: "Deepti Shukla",
+        "This website is incredibly designed.",
+      name: "Arihant Jain",
       designation: "CEO",
-      company: "Tecpinion",
+      company: "Webcraft",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rahul does.",
-      name: "Kartik Shukla",
-      designation: "COO",
-      company: "Tecpinion",
+      name: "Saksham gupta",
+      designation: "Senior Software Engineer",
+      company: "Webcraft",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
@@ -153,7 +165,7 @@ import {
         "After Rahul optimized our website, our traffic increased by 50%. We can't thank him enough!",
       name: "Abhishek Sharma",
       designation: "Team Lead",
-      company: "tecpinion",
+      company: "Webcraft",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];

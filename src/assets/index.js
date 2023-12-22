@@ -6,7 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -23,7 +22,7 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import tecpinion from "./company/tecpinion.png";
+import webcraft from "./company/logo.jpeg";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.jpeg";
@@ -54,7 +53,7 @@ export {
   threejs,
   meta,
   shopify,
-  tecpinion,
+  webcraft,
   tesla,
   carrent,
   jobit,
