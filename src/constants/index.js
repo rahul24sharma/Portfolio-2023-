@@ -120,7 +120,7 @@ import {
       company_name: "Webcraft IT",
       icon: webcraft,
       iconBg: "#383E56",
-      date: "June 2023 - Present",
+      date: "June 2023 - August 2024",
       points: [
         "Engineered software code using ReactJS and JavaScript to meet design specifications, and user requirements as well as deliver high-quality applications within specified deadlines.",
         "Developed the UI/UX of the aviator crash casino game and worked on the logical part using ReactJS, Pixijs, Web-Socket, Material UI, and NodeJS.",
@@ -172,9 +172,9 @@ import {
   
   const projects = [
     {
-      name: "Super Admin",
+      name: "Job Application Portal",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Job Application Portal is an online platform that allows job seekers to apply for various positions within an organization or across multiple companies.",
       tags: [
         {
           name: "react",
@@ -193,20 +193,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Music Player",
+      name: "Inventory Management System",
       description:
-        "A music website is basically a webpage where one can play/pause music. It has other options like the home section, music section, about section, contact section, etc.",
+        "An Inventory Management System (IMS) is a software solution designed to track and manage a company's inventory levels, orders, sales, and deliveries.",
       tags: [
         {
-          name: "react",
+          name: "JAVAswing",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "java",
           color: "pink-text-gradient",
         },
       ],
