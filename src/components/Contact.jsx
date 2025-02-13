@@ -34,16 +34,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_9xd8218",
-        "template_6vbf6xk",
+        "service_6r696cf",
+        "template_liume2h",
         {
           from_name: form.name,
           to_name: "Rahul Sharma",
           from_email: form.email,
-          to_email: "rsharmaa84@gmail.com",
+          to_email: "sharma.rahul1@northeastern.edu",
           message: form.message,
         },
-        "GcZB_fQCmZR8kHWNn"
+        "WZfryc4tcMIqbaiMt"
       )
       .then(
         () => {

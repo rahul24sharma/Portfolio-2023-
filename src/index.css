@@ -207,4 +207,5 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh; /* set the minimum height of the container to 100% of the viewport height */
+  background: #050816;
 }
