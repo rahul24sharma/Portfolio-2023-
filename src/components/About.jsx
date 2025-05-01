@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I am a proficient software developer with expertise in JavaScript, MERN technologies, and frameworks , and Python. I excel at rapidly acquiring new skills and collaborating closely with clients to develop efficient, scalable, and user-friendly solutions that address real-world challenges. Let's work together to transform your ideas into reality.
+       I am a results-driven Software Engineer with a strong foundation in JavaScript, MERN stack, TypeScript, and Python, currently pursuing a Master’s in Information Systems at Northeastern University (GPA 4.0/4.0). With hands-on experience in full-stack web development, cloud infrastructure, and scalable system design, I specialize in building high-performance, user-centric applications. My technical acumen spans modern frameworks like React, Next.js, and Django, with a deep understanding of cloud platforms such as AWS, GCP, and Azure. I thrive in Agile environments, adapt quickly to new technologies, and am passionate about transforming innovative ideas into real-world, impactful solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
