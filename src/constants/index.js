@@ -174,68 +174,78 @@ import {
   
   const projects = [
     {
-      name: "Job Application Portal",
+      name: "AI Voice Agent Interview Platform",
       description:
-        "A Job Application Portal is an online platform that allows job seekers to apply for various positions within an organization or across multiple companies.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Inventory Management System",
-      description:
-        "An Inventory Management System (IMS) is a software solution designed to track and manage a company's inventory levels, orders, sales, and deliveries.",
-      tags: [
-        {
-          name: "JAVAswing",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mysql",
-          color: "green-text-gradient",
-        },
-        {
-          name: "java",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Portfolio",
-      description:
-        "A portfolio website is a curated, online space that showcases your best work. It's one of the most practical and memorable ways to share your work with press, potential collaborators or employers.",
+        "A real-time AI-driven interview simulation platform built with Next.js and Vapi, enabling voice-based candidate evaluations with dynamic routing and role-based interfaces.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "vapi",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link:
+        "https://github.com/rahul24sharma/Full-Stack-Real-Time-AI-Voice-Agent-Interview-Platform#",
+    },
+    {
+      name: "Cloud Native Health Tracker",
+      description:
+        "A cloud-native full-stack web app for health tracking using React, Node.js, and MySQL, deployed on AWS with CI/CD, auto-scaling, and load balancing.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/rahul24sharma/webapp", // Replace with actual repo
+    },
+    {
+      name: "NuMoves",
+      description:
+        "A real-time move-out sales platform built for buyers and sellers to list, browse, and negotiate items during relocations. Features include live chat, 3D previews, and instant updates.",
+      tags: [
+        {
+          name: "springboot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "websocket",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mui",
+          color: "green-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/rahul24sharma/final-project-numoves", 
     },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };
