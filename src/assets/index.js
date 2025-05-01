@@ -26,8 +26,8 @@ import webcraft from "./company/logo.jpeg";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.jpeg";
-import jobit from "./jobit.jpeg";
-import tripguide from "./tripguide.jpeg";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
 
 export {
   logo,

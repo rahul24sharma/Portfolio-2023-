@@ -191,7 +191,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: carrent,
       source_code_link:
         "https://github.com/rahul24sharma/Full-Stack-Real-Time-AI-Voice-Agent-Interview-Platform#",
     },
@@ -213,7 +213,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: tripguide,
       source_code_link: "https://github.com/rahul24sharma/webapp", // Replace with actual repo
     },
     {
