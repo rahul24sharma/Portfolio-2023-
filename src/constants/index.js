@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "MERN Stack Developer",
+      title: "Full Stack Developer (MERN)",
       icon: web,
     },
     {
-      title: "ReactJS Developer",
+      title: "Frontend Engineer",
       icon: mobile,
     },
     {
-      title: "NodeJS Developer",
+      title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Python Developer",
+      title: "Cloud & DevOps Enthusiast",
       icon: creator,
     },
   ];
@@ -122,10 +122,11 @@ import {
       iconBg: "#383E56",
       date: "June 2023 - August 2024",
       points: [
-        "Engineered software code using ReactJS and JavaScript to meet design specifications, and user requirements as well as deliver high-quality applications within specified deadlines.",
-        "Developed the UI/UX of the aviator crash casino game and worked on the logical part using ReactJS, Pixijs, Web-Socket, Material UI, and NodeJS.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Engineered and deployed secure authentication systems using Django REST + JWT, aligning with security compliance requirements.",
+        "Optimized React healthcare dashboards with lazy loading and component-level tuning, improving performance by 45%.",
+        "Designed and optimized responsive React UI/UX with accessibility best practices and Three.js, boosting engagement by 30% through intuitive workflows and performance enhancements like lazy loading.",
+        "Reduced API response latency by 25% through Express middleware optimization, efficient route handling, and indexed SQL queries.",
+        "Worked in Agile sprints to deliver 15+ user stories, conducting code reviews and pair programming."
       ],
     },
     {
@@ -135,10 +136,11 @@ import {
       iconBg: "#383E56",
       date: "December 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Developing gaming applicationsusing pixijs, gsap and other related technologies to create high-quality products.",
-        "Worked on Superuser Management system using HTML5, CSS3, JavaScript, and Firebase, which helped the admin create and manage users.",
-        "Created independent and reusable web components using ReactJS and JavaScript which can be integrated with any application.",
+        "Increased SQL report generation speed by 35% by implementing optimized indexing in Django-admin reports.",
+        "Built a RESTful API with Node to handle real-time data processing for 500+ users, achieving 99% up time on AWS.",
+        "Containerized full-stack application with Docker, reducing setup time by 60% and easing cross-env deployments.",
+        "Diagnosed and resolved RBAC conflicts, enhancing app-level security and access control integrity.",
+        "Integrated third-party APIs for payments and data processing, improving system reliability and customer experience by 15% through collaboration and effective communication."
       ],
     },
   ];
