@@ -107,7 +107,7 @@
 import React, { Suspense } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { Navbar, Hero, StarsCanvas } from "./components";
-
+import CanvasLoader from "./components/Loader";
 const About = React.lazy(() => import("./components/About"));
 const Contact = React.lazy(() => import("./components/Contact"));
 const Experience = React.lazy(() => import("./components/Experience"));
@@ -123,7 +123,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <Suspense fallback={<div>Loading Sections...</div>}>
+        <Suspense fallback={<CanvasLoader />}>
           <About />
           <Experience />
           <Tech />
