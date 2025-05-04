@@ -66,18 +66,54 @@
 // export default App;
 
 
+// import { BrowserRouter } from "react-router-dom";
+// import {
+//   About,
+//   Contact,
+//   Experience,
+//   Feedbacks,
+//   Hero,
+//   Tech,
+//   Navbar,
+//   Works,
+//   StarsCanvas,
+// } from "./components";
+
+// const App = () => {
+//   return (
+//     <BrowserRouter>
+//       <div className="relative z-0 bg-primary">
+//         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+//           <Navbar />
+//           <Hero />
+//         </div>
+//         <About />
+//         <Experience />
+//         <Tech />
+//         <Works />
+//         <Feedbacks />
+//         <div className="relative z-0">
+//           <Contact />
+//           <StarsCanvas />
+//         </div>
+//       </div>
+//     </BrowserRouter>
+//   );
+// };
+
+// export default App;
+
+
+import React, { Suspense } from "react";
 import { BrowserRouter } from "react-router-dom";
-import {
-  About,
-  Contact,
-  Experience,
-  Feedbacks,
-  Hero,
-  Tech,
-  Navbar,
-  Works,
-  StarsCanvas,
-} from "./components";
+import { Navbar, Hero, StarsCanvas } from "./components";
+
+const About = React.lazy(() => import("./components/About"));
+const Contact = React.lazy(() => import("./components/Contact"));
+const Experience = React.lazy(() => import("./components/Experience"));
+const Feedbacks = React.lazy(() => import("./components/Feedbacks"));
+const Tech = React.lazy(() => import("./components/Tech"));
+const Works = React.lazy(() => import("./components/Works"));
 
 const App = () => {
   return (
@@ -87,15 +123,17 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
-        </div>
+        <Suspense fallback={<div>Loading Sections...</div>}>
+          <About />
+          <Experience />
+          <Tech />
+          <Works />
+          <Feedbacks />
+          <div className="relative z-0">
+            <Contact />
+            <StarsCanvas />
+          </div>
+        </Suspense>
       </div>
     </BrowserRouter>
   );
