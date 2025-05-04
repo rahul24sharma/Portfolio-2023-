@@ -123,7 +123,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <Suspense fallback={<CanvasLoader />}>
+        <Suspense fallback={<div>Loading...</div>}>
           <About />
           <Experience />
           <Tech />
